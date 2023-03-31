@@ -1,0 +1,8 @@
+package pack222;
+
+public class pa {
+public static void main(String[] args) {
+	int num = 12;
+	
+}
+}

@@ -1,0 +1,11 @@
+package Variable;
+// ctrl + shift + f = 줄정리
+public class Ex03_Variable {
+	public static void main(String[] args) {
+		int value = 0 ;
+		int result = value + 10;
+		System.out.println(result);
+		int value = 10;
+		int result = value + 10 ;      //2
+	}
+}

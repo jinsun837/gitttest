@@ -1,0 +1,11 @@
+package Variable;
+
+public class Ex01_Variable {
+	public static void main(String[] args) {
+		int b;  // 이클립스는 오류코드 외에도 메모리를 생각해서
+		b = 30; // 불필요한 변수는 지우라고 추천을한다. (노랑)
+		int c = 40;
+		System.out.println(b);
+		System.out.println(c);
+	}
+}

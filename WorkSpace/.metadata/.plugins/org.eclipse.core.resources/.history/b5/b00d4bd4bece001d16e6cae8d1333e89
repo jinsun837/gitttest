@@ -1,0 +1,8 @@
+
+public class test04 {
+
+	public static void main(String[] args) {
+		// int(소숫점이 없는 정수) , double(소숫점이 있는 실수)
+		// char(한글자==문자) , string(두글자이상의 문자열)
+	}
+}

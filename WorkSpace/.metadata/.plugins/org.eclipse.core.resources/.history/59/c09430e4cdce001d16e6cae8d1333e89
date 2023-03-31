@@ -1,0 +1,13 @@
+package pack;
+
+public class ex02_scanner {public static void main(String[] args) {
+	
+	Scanner sc = new Scanner(System.in); // 기억 안 나면 복붙
+	String data = sc.nextLine(); // 내가 엔터키 치기 전까지의 문자열을 가져옴
+	
+	int sum = Integer.parseInt( data ) + 20;
+	System.out.println(sum);
+	
+}
+
+}

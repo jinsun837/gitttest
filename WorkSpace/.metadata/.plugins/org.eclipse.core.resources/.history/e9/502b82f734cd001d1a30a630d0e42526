@@ -1,0 +1,15 @@
+package Variable;
+
+public class Ex01_Variable {
+	public static void main(String[] args) {
+		int b;  // 이클립스는 오류코드 외에도 메모리를 생각해서
+		b = 30; // 불필요한 변수는 지우라고 추천을한다. (노랑)
+		int c = 40;
+		System.out.println(b);
+		System.out.println(c);
+		// 현 a , b , c 쓰고있음 => 문제점? 
+		// 같이 협업을 할때 이 변수 자체를 왜 만들었는지 모름
+		// 변수명 (식별자) 작성 규칙
+		// -반드시 알파벳 소문자로 시작할것
+	}
+}

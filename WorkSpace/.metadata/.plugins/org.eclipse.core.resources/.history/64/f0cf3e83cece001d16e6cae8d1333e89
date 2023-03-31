@@ -1,0 +1,16 @@
+package pack;
+
+import java.util.Scanner;
+
+public class ex02_scanner {public static void main(String[] args) {
+	
+	
+	Scanner sc = new Scanner(System.in); // 기억 안 나면 복붙
+	String data = sc.nextLine(); // 내가 엔터키 치기 전까지의 문자열을 가져옴
+	// 숫자를 두개 받아와서 두 수의 합을 구하기. 
+	int sum = Integer.parseInt( data ) + 50;
+	System.out.println(sum);
+	
+}
+
+}

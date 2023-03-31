@@ -1,0 +1,13 @@
+package pack;
+
+public class ex02_scanner {public static void main(String[] args) {
+	
+	Scanner sc = new Scanner(System.in);
+	String data = sc.nextLine();  
+	
+	int sum = Integer.parseInt( data ) + 20;
+	syso
+	
+}
+
+}

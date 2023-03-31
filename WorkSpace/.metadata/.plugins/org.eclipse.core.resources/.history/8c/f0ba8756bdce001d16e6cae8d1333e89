@@ -1,0 +1,11 @@
+
+public class test01 {
+	public test01() {
+		// TODO Auto-generated constructor stub
+       // ;<= 세미콜론 , : <= 콜론
+System.out.println(1);
+	
+	
+	}
+
+}

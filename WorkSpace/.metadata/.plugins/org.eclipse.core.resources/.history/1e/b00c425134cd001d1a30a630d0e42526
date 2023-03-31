@@ -1,0 +1,11 @@
+package Variable;
+
+public class Ex01_Variable {
+	public static void main(String[] args) {
+		int a;
+		int b;
+		
+		b = 30;
+		int c = 40;
+	}
+}

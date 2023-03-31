@@ -1,0 +1,26 @@
+package pack;
+
+import java.util.Scanner;
+
+public class ex02_scanner {public static void main(String[] args) {
+	
+	
+	Scanner sc = new Scanner(System.in); // 기억 안 나면 복붙
+	String data = sc.nextLine();
+	String data1 = sc.nextLine();
+	String data2 = sc.nextLine();
+	// 내가 엔터키 치기 전까지의 문자열을 가져옴
+	// 숫자를 두개 받아와서 두 수의 합을 구하기. 
+	int sum = Integer.parseInt( data ) + 20;
+	System.out.println(data1);
+	System.out.println(data2);
+	// 1. int sum = Integer.parseInt(data1)+ Integer.parseInt(data2);//string 한번에 바꾸는 방식
+	int num1 = Integer.parseInt(data1);
+	int num2 = Integer.parseInt(data2);
+			System.out.println(num1 + num2);
+	
+	//변수 만들어두고 사용하지 않으셔서 알림이 뜨는 것 같아요
+			
+}
+
+}

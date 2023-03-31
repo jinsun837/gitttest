@@ -1,0 +1,12 @@
+package pack;
+
+public class ex02_scanner {public static void main(String[] args) {
+	
+	Scanner sc = new Scanner(System.in); 
+	
+	
+	System.out.println(inputData+10);
+	String inputData = sc.nextLine();  
+}
+
+}
