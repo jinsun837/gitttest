@@ -1,0 +1,26 @@
+package Test01;
+
+public class Ex03_Bool {public static void main(String[] args) {
+	
+	// ture 와 false 저장 가능 변수타입 
+	// true (1), false (0)
+	// and 연산자는 논리곱 - true (1) * false (0) = false (논리곱은 모든 조건이 TRUE 일때만 TRue)
+	// 로그인( 아이디가 맞고 (true) * 비밀번호가 맞고(true) ==> 로그인 true 
+	// or 연산자 논리합 TRUE(1) + FALSE()) = TRUE (논리합은 하나의 true가 전체 조건식을 true로 만듬
+	// 한가지의 조건만 만족을 시키면 TRUE로 뺄때.
+	// 좋아하는 과일 1가지 이상을 선택해라.(과일1=선택, 과일2, 과일 3)= true
+	
+// and 연산자&or 연산자	\
+	// NOT => ! 
+	// 어떤 true ,false(bool) 앞에 붙이면 해당 결과를 반전시킴.
+	boolean ture = false;
+	boolean True = ture , bFalse = false;
+	System.out.println(!True);
+	System.out.println(!bFalse);
+	
+	
+	
+	
+}
+
+}
