@@ -1,0 +1,14 @@
+package Test01;
+
+public class ex04_oper {public static void main(String[] args) {
+	int value1 = 5, value2 = 2;
+	
+	// 연산 순서 : 현실에서 연산 순서
+	// 연산 먼저하기 위해 구분자 =>
+	System.out.println("value1 + value2 = " +(value1 + value2);
+	System.out.println("value1 - value2 = " +(value1 + value2);
+	System.out.println("value1 * value2 = " + value1 + value2);
+	System.out.println("value1 / value2 = " + value1 + value2);
+}
+
+}

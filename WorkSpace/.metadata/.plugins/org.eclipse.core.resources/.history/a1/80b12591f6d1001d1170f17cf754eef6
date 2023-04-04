@@ -1,0 +1,9 @@
+package ex11;
+
+public class test03 {public static void main(String[] args) {
+	// 다항연산자 또는 이항연산자를 이용해 문제 풀기
+	// Scanner 이용
+	scanner sc = new Scanner(System.in);
+}
+
+}

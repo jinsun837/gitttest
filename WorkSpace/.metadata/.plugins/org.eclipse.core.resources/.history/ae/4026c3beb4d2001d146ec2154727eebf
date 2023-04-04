@@ -1,0 +1,30 @@
+package pack01_if;
+
+public class Ex_03IfIf {public static void main(String[] args) {
+	// 블럭킹=> {}(지역) - 메모리 과정이 {}안에 있음.
+	// int num1 = 10; (변수를 초기화시키면 메모리 어느 부분에 값이 저장되고 우리는 변수명으로 찾아서 쓴다.
+	// 변수는 언제까지 메모리에 저장이 되어있을까?
+	// 블럭안을 사용하는동안
+	
+	int num1 = 10;
+	System.out.println(num1);
+	if( num1 == 10) {
+		//int num1 = 10; //1. 왜 오류인가?
+		
+		int num2 = 10;//2. 언제까지 사용 가능?- 블럭 안에 한정해 사용가능
+		System.out.println(num2);
+	}
+	
+	
+	{
+		//main 내부에 다른 지역 만듬
+		//3. num2 라는 변수는 이미 같은 이름으로 사용된 적 있음.
+		// 그렇다면 변수 선언이 오류가 나야하는데  왜 나오지 않을까?- 또 다른 블럭으로 부분값을 만들었기 때문
+		int num2 = 10; 
+	}
+	
+	
+	
+}
+
+}

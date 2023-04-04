@@ -19,6 +19,6 @@ public class Ex03_Variable {
 		result = 9 / 3;
 		System.out.println(result);
 		result = value ; //같은 타입의 변수는 값을 담을수 있다.
-		
+		// ctrl + shift + f = 줄정리
 	}
 }

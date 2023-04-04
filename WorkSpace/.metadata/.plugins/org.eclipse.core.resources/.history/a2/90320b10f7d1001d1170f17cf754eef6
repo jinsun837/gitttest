@@ -1,0 +1,24 @@
+package ex11;
+
+import java.util.Scanner;
+
+public class test03 {public static void main(String[] args) {
+	// 다항연산자 또는 이항연산자를 이용해 문제 풀기
+	// Scanner 이용
+	Scanner sc = new Scanner(System.in); // 스캐너 준비
+	String inputData1 = sc.nextLine(); // enter를 치기 전 데이터 가져옴
+	
+	// 콘솔창을 통해 입력받아온 String 데이터를 int 로 바꾼 후 해당 숫자가 짝수인지 홀수인지 판단해
+	// 콘솔창에 출력해라. 1=> 홀수, 2=>짝수 ...
+	// 콘솔창을 통해 String 데이터를 (숫자) 두개 입력 받는다.
+	// 각각의 숫자는 num1과 num2로 구분한다
+	// 두숫자의 더하기, 빼기 , 곱하기 , 나누기 한 결과 출력
+	
+	// 두 숫자중더 큰숫자가 어떤숫자인지 표시
+	
+	int a = Integer.parseInt(inputData1);
+	
+	
+}
+
+}

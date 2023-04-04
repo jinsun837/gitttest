@@ -1,0 +1,29 @@
+package ex09;
+
+public class ex09 {public static void main(String[] args) {
+	// 비교연산자 : 조건문에 많이 사용
+	// 조건 : 어떤 식이 참 or 거짓 판단
+	// eg) id 와 pw 가 내 입력한 값과 DB에 잇는 값이 일치하는지에 - " 로그인' : " 아이디 또는 비밀번호를 확인"
+	// 조건은 반드시 True 와 False 의 값을 얻을 수 있어야 함.
+	int num1 = 10 , num2 = 10;
+	// == , !-= , <= , >= , < , >
+	// 같다, 같지않다, 이상 , 이하, 초과, 미만
+	// 조건식을 사용 후 결과가 반드시 나와야 함.
+	
+	boolean result1  = num1 == num2 ; //T
+	boolean result2 = num1 != num2 ;//F
+	boolean result3 = num1 <= num2 ;//T
+	
+	System.out.println(result1);
+	System.out.println(result2);
+	System.out.println(result3);
+	
+	
+	System.out.println(num1 == num2);//T
+	System.out.println(num1 != num2);// F
+	System.out.println(num1 <= num2);//T
+	
+	
+}
+
+}

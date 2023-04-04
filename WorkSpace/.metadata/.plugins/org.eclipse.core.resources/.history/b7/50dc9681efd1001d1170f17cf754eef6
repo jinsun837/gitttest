@@ -1,0 +1,10 @@
+package ex09;
+
+public class ex09 {public static void main(String[] args) {
+	// 비교연산자 : 조건문에 많이 사용
+	// 조건 : 어떤 식이 참 or 거짓 판단
+	// eg) id 와 pw 가 내 입력한 값과 DB에 잇는 값이 일치하는지에 - " 로그인' : " 아이디 또는 비밀번호를 확인"
+	// 조건은 반드시 True 와 False 의 값을 얻을 수 있어야 함.
+}
+
+}

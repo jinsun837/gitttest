@@ -1,0 +1,14 @@
+package ex07;
+
+public class ex07 {public static void main(String[] args) {
+	// = (대입 , 값 할당)
+	// 비교 연산자( ==, < , > , >
+	// 초과 , 미만 ( 0 < 4 : <<= 해당 식을 이용해 0 이상의 숫자 1~3
+	// 이상 , 이하 ( 0~4
+	// 조건식에 포함된 숫자 포
+	
+	int num = 10;
+	String result = num == 10 ? " 맞다 " : "틀리다" ;
+}
+
+}
